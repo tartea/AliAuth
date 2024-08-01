@@ -1,0 +1,51 @@
+.config_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #e1dcdc;
+    align-items: center;
+  }
+  
+  .card_totp_code {
+    font-size: 23px;
+    color: #549cff;
+    display: flex;
+  }
+  
+  .card_totp_explain {
+    font-size: 13px;
+    color: #969494;
+    display: flex;
+  }
+  
+  .card_left {
+    max-width: 60%;
+    overflow: hidden;
+  }
+  
+  .card_right {
+    display: flex;
+  }
+  
+  .card_btn {
+    background-color: rgb(77 161 200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 38px;
+    border-radius: 7px;
+    margin-left: 15px;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  
+  .card_green {
+    background-color: darkorange;
+  }
+  
+  .card_red {
+    background-color: red;
+  }

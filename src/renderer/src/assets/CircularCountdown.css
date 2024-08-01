@@ -1,0 +1,32 @@
+.countdown-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+.svg-circle{
+    border-radius: 1100px;
+}
+
+.countdown-timer {
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #333; /* 设置文本颜色 */
+}
+
+.start-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.start-button:hover {
+    background-color: #45a049;
+}

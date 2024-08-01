@@ -1,0 +1,53 @@
+.config_header {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+  }
+  
+  .config_back {
+    cursor: pointer;
+  }
+  
+  .config-title {
+    font-size: 20px;
+    margin-left: 19px;
+  }
+  
+  .config_form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+  }
+  
+  .config_line {
+    margin-top: 30px;
+  }
+  
+  .config_input {
+    height: 43px;
+    border-radius: 7px;
+    border: 1px solid;
+    padding-left: 24px;
+    font-size: 16px;
+  }
+  
+  .config_btn {
+    background-color: #72a87d;
+    height: 43px;
+    border-radius: 7px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .error_toast {
+    color: red;
+    display: flex;
+    font-size: 12px;
+    padding-left: 12px;
+    padding-top: 3px;
+  }
