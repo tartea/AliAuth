@@ -1,4 +1,4 @@
-appId: com.electron.app
+appId: com.ali.app
 productName: AliAuth
 directories:
   buildResources: build
