@@ -1,34 +1,92 @@
-# aliauth
+# Aliauth
 
-An Electron application with React and TypeScript
+Aliauth 是一款用于桌面端的二次验证码工具，旨在增强用户的账户安全性。通过生成一次性验证码，Aliauth 可以有效防止未授权访问，并为用户提供额外的安全保护。
 
-## Recommended IDE Setup
+## 功能特点
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- **安全性高**：生成的验证码是一次性的，确保即使验证码被盗取，也无法重复使用。
+- **多平台支持**：支持 Windows、macOS 和 Linux，用户可以在各种桌面环境中使用。
+- **用户友好界面**：简洁直观的用户界面，易于使用，适合所有用户。
+- **二维码生成**：支持将验证码以二维码形式展示，方便快速扫描和输入。
+- **离线使用**：一旦安装，用户无需依赖网络即可生成验证码，确保在任何情况下都能使用。
 
-## Project Setup
+## 界面展示
 
-### Install
+### 主页
+
+![主页](./docs/home.png)
+
+Aliauth 的主页展示了当前的验证码和相关功能选项。用户可以轻松访问设置和帮助文档，确保使用过程顺畅。
+
+### 配置
+
+![配置](./docs/qr.png)
+
+在二维码界面中，用户可以查看生成的验证码二维码，便于在移动设备上快速扫描并使用。
+
+## 项目设置
+
+### 安装
+
+在开始使用 Aliauth 之前，您需要安装项目依赖。请确保您已安装 Node.js 和 npm。然后在项目根目录运行以下命令：
 
 ```bash
-$ npm install
+npm install
 ```
 
-### Development
+### 开发
+
+要启动开发模式并查看实时更新，运行以下命令：
 
 ```bash
-$ npm run dev
+npm run dev
 ```
 
-### Build
+这将启动开发服务器并在浏览器中打开应用程序。
+
+### 构建
+
+在完成开发后，您可以根据您的操作系统构建 Aliauth。以下是构建命令：
+
+- **对于 Windows**：
 
 ```bash
-# For windows
-$ npm run build:win
-
-# For macOS
-$ npm run build:mac
-
-# For Linux
-$ npm run build:linux
+ npm run build:win
 ```
+
+- **对于 macOS**：
+
+```bash
+npm run build:mac
+```
+
+- **对于 Linux**：
+
+```bash
+npm run build:linux
+```
+
+运行相应的命令后，构建的应用程序将生成在 `dist` 文件夹中。
+
+## 使用说明
+
+1. **启动应用**：双击生成的应用程序图标启动 Aliauth。
+2. **生成验证码**：应用程序启动后，验证码会自动生成并显示在主页上。
+3. **配置**：若需要在添加新的配置，可以使用手动配置或者扫描二维码自动配置。
+
+## 贡献
+
+欢迎任何对 Aliauth 感兴趣的开发者参与贡献。您可以提出问题、提交功能请求或直接贡献代码。请遵循以下步骤：
+
+1. Fork 本仓库。
+2. 创建一个新的分支 (`git checkout -b feature/YourFeature`)。
+3. 提交您的更改 (`git commit -m 'Add some feature'`)。
+4. 推送到分支 (`git push origin feature/YourFeature`)。
+5. 创建一个新的 Pull Request。
+
+## 许可证
+
+本项目采用 MIT 许可证。有关详细信息，请查看 [LICENSE](LICENSE) 文件。
+
+
+感谢您使用 Aliauth！希望这款工具能为您提供更高的安全性和便利性
